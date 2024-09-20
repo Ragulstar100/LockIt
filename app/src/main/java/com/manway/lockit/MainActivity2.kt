@@ -249,6 +249,7 @@ fun Settings(context: Context,userName:String="admin",packageName:String="all"){
 
 
 
+    //new
         setInfo?.let {
             Scaffold(Modifier.fillMaxWidth().height(if(tabScreen==1) 200.dp else 800.dp), topBar = {}, floatingActionButton = { if(tabScreen==3)   Icon(Icons.Default.Add,"",Modifier.clip(RoundedCornerShape(10)).background(Color.White).scale(1.5f).padding(10.dp).clickable { dlg_open_addUser=true }) }){pad->
                 Column {
