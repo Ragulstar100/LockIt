@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LockIt</string>
+    <string name="bootServiceLabel">LockIt AutoStart Permission</string>
+    <string name="accessibility_service_description">This is Only used Apk Autostart purpose</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_main2">MainActivity2</string>
+</resources>
